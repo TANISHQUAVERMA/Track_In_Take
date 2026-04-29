@@ -5,7 +5,7 @@
 [![Python](https://img.shields.io/badge/Python-3.11-blue?logo=python&logoColor=white)](https://www.python.org/)
 [![Django](https://img.shields.io/badge/Django-5.2-green?logo=django&logoColor=white)](https://www.djangoproject.com/)
 [![License](https://img.shields.io/badge/License-MIT-blue)](LICENSE)
-[![GitHub Repo](https://img.shields.io/badge/GitHub-TrackEats-black?logo=github)](https://github.com/healthalmanet/TrackEats)
+[![GitHub Repo](https://img.shields.io/badge/GitHub-Track_In_Take-black?logo=github)](https://github.com/TANISHQUAVERMA/Track_In_Take)
 
 ---
 
@@ -13,8 +13,8 @@
 Clone the entire repository:
 
 ```bash
-git clone https://github.com/healthalmanet/TrackEats.git
-cd TrackEats
+git clone https://github.com/TANISHQUAVERMA/Track_In_Take.git
+cd Track_In_Take
 
     ✅ Full repository with all branches and history will be cloned.
 
