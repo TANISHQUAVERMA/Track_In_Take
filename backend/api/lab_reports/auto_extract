@@ -1,0 +1,28 @@
+# Django backend view
+from django.core.files.uploadedfile import UploadedFile
+import tempfile
+import os
+from django.http import JsonResponse
+
+from backend.api.views import process_lab_report
+
+def auto_extract(request):
+    if request.method == 'POST':
+        file = request.FILES.get('file')  # Get the uploaded file
+        
+        if not file:
+            return JsonResponse({'error': 'No file provided'}, status=400)
+        
+        # Save temporarily
+        with tempfile.NamedTemporaryFile(delete=False, suffix='.pdf') as tmp_file:
+            for chunk in file.chunks():
+                tmp_file.write(chunk)
+            tmp_path = tmp_file.name
+        
+        try:
+            # Process the file at tmp_path
+            extracted_data = process_lab_report(tmp_path)
+            return JsonResponse(extracted_data)
+        finally:
+            # Clean up
+            os.unlink(tmp_path)
