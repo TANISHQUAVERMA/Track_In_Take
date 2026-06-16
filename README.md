@@ -1,18 +1,58 @@
 # 🚀 TrackEats
 
-**Django Backend + React Frontend**
+AI-powered nutrition tracking platform built during my internship at Almanet. The application helps users monitor food intake, analyze nutritional values, and receive personalized recommendations powered by Google's Gemini AI.
 
-[![Python](https://img.shields.io/badge/Python-3.11-blue?logo=python&logoColor=white)](https://www.python.org/)
-[![Django](https://img.shields.io/badge/Django-5.2-green?logo=django&logoColor=white)](https://www.djangoproject.com/)
-[![License](https://img.shields.io/badge/License-MIT-blue)](LICENSE)
-[![GitHub Repo](https://img.shields.io/badge/GitHub-Track_In_Take-black?logo=github)](https://github.com/TANISHQUAVERMA/Track_In_Take)
+## 🌟 Highlights
 
----
+* 🤖 Gemini AI integration for nutrition recommendations
+* 📊 Food intake and calorie tracking
+* 🔄 Real-time communication using WebSockets
+* 🔐 Secure authentication system
+* ☁️ Cloudinary media storage
+* 📱 Responsive React frontend
+* 🚀 Django REST API backend
 
-## 🛠 Step 1 — Clone Repository
-Clone the entire repository:
+## 🛠 Tech Stack
 
-```bash
+### Backend
+
+* Python
+* Django
+* Django REST Framework
+* PostgreSQL
+* Redis
+* WebSockets
+
+### Frontend
+
+* React
+* JavaScript
+* Vite
+
+### AI & Cloud
+
+* Gemini API
+* Cloudinary
+* Twilio
+
+## 💼 Internship Experience
+
+This project was developed during my internship at Almanet, where I worked on:
+
+* Backend API development
+* Gemini AI integration
+* Real-time WebSocket communication
+* Database design and optimization
+* Authentication and user management
+
+## 📸 Screenshots
+
+*Add screenshots here*
+
+## ⚙️ Installation
+
+## 🛠 Step 1 — Clone Repository Clone the entire repository:
+bash
 git clone https://github.com/TANISHQUAVERMA/Track_In_Take.git
 cd Track_In_Take
 
@@ -129,8 +169,10 @@ Frontend URL:
     If python3 is not found, use python or py -3.
 
     If pip install fails:
+bash 
+Copy code 
+pip install --upgrade pip setuptools wheel 
 
-bash
-Copy code
-pip install --upgrade pip setuptools wheel
+## 👨‍💻 Author
 
+Tanishqua Verma
